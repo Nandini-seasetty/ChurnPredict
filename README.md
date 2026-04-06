@@ -32,6 +32,7 @@ This project is an end-to-end machine learning application that predicts custome
 ---
 
 ## 🏗️ Project Structure
+```
 churn_website/
 │
 ├── app.py                # Flask backend
@@ -42,7 +43,7 @@ churn_website/
 ├── static/
 │     └── style.css  
 └── README.md
-
+```
 ## 🔄 Workflow
 1. User inputs customer details through the web interface  
 2. Data is preprocessed using trained encoders/scalers  
