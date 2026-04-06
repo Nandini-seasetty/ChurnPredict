@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Bhai+2:wght@400..800&family=Bebas+Neue&family=Caveat:wght@400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AU+QLD&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #06B6D4;
+    padding: 7px;
+    font-family: Arial;
+}
+.baloo-bhai-2-bold {
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; 
+  font-style: normal;
+}
+body {
+    padding: 0;
+    align-items: center;
+    font-family: Arial;
+    background: #0F172A;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #1E293B;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+label {
+    font-size: 13px;
+    color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f4f5ffe8;
+}
+
+.full {
+    grid-column: span 2;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #0EA5E9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0EA5E9;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+}
+
+.churn-yes {
+    background: #ffe0e0;
+    border-left: 5px solid red;
+}
+
+.churn-no {
+    background: #e0ffe0;
+    border-left: 5px solid green;
+}
+
+#result h3 {
+    margin-bottom: 10px;
+}
+
+#result ul {
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+#result ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
